@@ -20,6 +20,8 @@ new_height = screen.height - 300;
     function my_mousedown(e)
     {
         //Addictonal Activity startF
+        color = document.getElementById("color").value;
+        width_of_line = document.getElementById("line").value;
         //Addictonal Activity ends
 
         mouseEvent = "mouseDown";
