@@ -15,7 +15,7 @@ new_height = screen.height - 300;
     color = "black";
     width_of_line = 2;
 
-    canvas.addEventListener("mousedown", my_mousedown);
+    window.addEventListener("mousedown", my_mousedown);
     
     function my_mousedown(e)
     {
@@ -27,19 +27,19 @@ new_height = screen.height - 300;
         mouseEvent = "mouseDown";
     }
 
-    canvas.addEventListener("mouseup", my_mouseup);
+    window.addEventListener("mouseup", my_mouseup);
     function my_mouseup(e)
     {
         mouseEvent = "mouseUP";
     }
 
-    canvas.addEventListener("mouseleave", my_mouseleave);
+    window.addEventListener("mouseleave", my_mouseleave);
     function my_mouseleave(e)
     {
         mouseEvent = "mouseleave";
     }
 
-    canvas.addEventListener("mousemove", my_mousemove);
+    window.addEventListener("mousemove", my_mousemove);
     function my_mousemove(e)
     {
 
